@@ -31,10 +31,8 @@ Output can be filtered by specific suspect package calls (TODO: make customizabl
 
 ## Output formats
 
-XML
+XML only at the moment
 
 ## Limitations
 
 - does not expose package renames, but only uses the original package import name
-
-## Todo

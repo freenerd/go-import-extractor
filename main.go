@@ -12,8 +12,7 @@ import (
 var (
 	file = flag.String("f", "", "a go source file to extract imports from")
 	pkg  = flag.String("p", "", "a go package to extract imports from")
-	//suspects = flag.Bool("s", false, "filter output through a suspects list")
-	format = flag.String("format", "xml", "format of output. valid values: yaml (default), csv (uniqued list of calling packages, useful with suspect list)")
+	format = flag.String("format", "xml", "format of output. valid values: xml (default)")
 )
 
 func main() {
